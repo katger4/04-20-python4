@@ -1,0 +1,87 @@
+Script started on Wed Apr 20 08:39:27 2016
+[?1034hbash-3.2$ exitquit()sudo dscl . append /Groups/_developer GroupMembership iguest[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27P/usr/sbin/DevToolsSecurity -enable[C[C[C[C[C[C[C[C[C[Cexit[K/usr/sbin/DevToolsSecurity -enable[C[C[C[C[C[C[C[C[C[Csudo dscl . append /Groups/_ddeveloper GroupMembership iguest[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cquit()[K[2Pexit[Kpython3 script.py
+1520 words
+bash-3.2$ 
+bash-3.2$ python3 script.py
+18592 words
+bash-3.2$ python3 script.py
+115 words
+bash-3.2$ python3 skew.py
+Traceback (most recent call last):
+  File "skew.py", line 2, in <module>
+    import numpy as np
+ImportError: No module named 'numpy'
+bash-3.2$ python3 skew.pycript.py
+Word to find: caterpill         alice
+bash-3.2$ python3 script.py
+Word to find: egg
+egg is in the list!
+bash-3.2$ python3 script.py
+Word to find: happy
+happy is in the list!
+bash-3.2$ python3 script.py
+Word to find: egg
+egg is in the list!
+bash-3.2$ python3 script.py
+Traceback (most recent call last):
+  File "script.py", line 9, in <module>
+    if len(line) > len(largest):
+TypeError: object of type 'NoneType' has no len()
+bash-3.2$ python3 script.py
+floccinaucinihilipilification
+ is the largest!
+bash-3.2$ python3 script.py
+Max word length? 1 8
+A word was long
+bash-3.2$ python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "banana".upper()
+'BANANA'
+>>> b = "banana"
+>>> b.upper()
+'BANANA'
+>>> b
+'banana'
+>>> values = ['a','b','c','d']
+>>>     for item in values:
+  File "<stdin>", line 1
+    for item in values:
+    ^
+IndentationError: unexpected indent
+>>>         print(values)
+  File "<stdin>", line 1
+    print(values)
+    ^
+IndentationError: unexpected indent
+>>> for item in values:
+...     print(values)
+... q[K
+KeyboardInterrupt
+>>> quit()
+bash-3.2$ python3 script.py
+['a', 'b', 'c', 'd']
+['a', 'b', 'c', 'd']
+['a', 'b', 'c', 'd']
+['a', 'b', 'c', 'd']
+bash-3.2$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   script.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mnotes.py[m
+	[31mskew.py[m
+	[31mterminal.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git config --global user.name "YOUR NAME"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kconfig --global user.name "YOUR NAME"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"k"a"t"g"e"r"4"
+bash-3.2$ git config --global user.email "kajgertz@gmail.com"
+bash-3.2$ 
